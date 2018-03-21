@@ -1,0 +1,24 @@
+{
+  "name": "gap-front-dto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gaptree/gap-front-dto",
+  "author": "zhanjh <zhanjh@126.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^23.0.0-alpha.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.0",
+    "jest": "^22.4.2",
+    "regenerator-runtime": "^0.11.1"
+  },
+  "scripts": {
+    "test": "npm run jest && npm run eslint",
+    "jest": "jest",
+    "eslint": "eslint ."
+  },
+  "dependencies": {
+    "gap-front-event": "^1.0.1"
+  }
+}
